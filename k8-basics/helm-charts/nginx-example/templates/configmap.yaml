@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: nginx-config-1
+  # namespace: helm-examples
+data:
+  index.html: |
+    <html>
+    <h2> hello i am {{ .Values.myTitleName }} </h2>
+    </html>

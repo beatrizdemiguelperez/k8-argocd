@@ -1,0 +1,6 @@
+replicaCount: 2
+myTitleName: "bea"
+nginx:
+  image:
+    repository: nginx
+    tag: latest
